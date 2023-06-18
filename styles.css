@@ -261,3 +261,32 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+.buttons {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-weight: bold;
+}
+.btn_link {
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #dee676;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 5px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+.btn_link:hover {
+  background: #dee676;
+  color: #050801;
+  box-shadow: 0 0 5px #dee676, 0 0 25px #dee676, 0 0 50px #dee676,
+    0 0 200px #dee676;
+}
